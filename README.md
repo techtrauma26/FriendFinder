@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Build Status](https://img.shields.io/badge/npm%20package-4.2.0-brightgreen.svg)
 
-![image]()
+![image](/app/public/images/logo.jpg)
 >
 
 ## Table of contents
