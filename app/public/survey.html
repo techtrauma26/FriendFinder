@@ -264,22 +264,22 @@
   </div>
 
   <!-- Modal -->
-  <div id="results-modal" class="modal fade" role="dialog">
+  <div id="suit-modal" class="modal fade" role="dialog">
     <div class="modal-dialog">
 
     
-      <div class="mcontent">
+      <div class="mcontent" style= "color: darkslategray">
         <div class="header" style="display: block;">
           <button type="button"  style="text-align: center;" class="close" data-dismiss="modal">×</button>
           <h2 class="modal-title" style="align-content: center;"><strong>Most Suitable with : </strong></h2>
         </div>
         <div class="modal-body">
-          <h2 id="match-name" style="text-align: center;"></h2>
+          <h2 id="suit-name" style="text-align: center;display: block; "></h2>
           <br>
-          <img id="match-img" style="text-align: center;" src="" width="350" height="650">
+          <img id="suit-img" style="text-align: center; display: block; margin: 10px; " src="" width="350" height="650">
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
         </div>
       </div>
 
@@ -311,7 +311,7 @@
         return isValid;
       }
 
-      // If all required fields are filled
+   
       if (validateForm()) {
       // Create an object for the user"s data
       var userData = {
@@ -335,10 +335,10 @@
       $.post("/api/friends", userData, 
         function (data) {
           console.log('response = ' + JSON.stringify(data));
-          $("#match-name").html(data.name);
-          $("#match-img").attr("src", data.photo);
+          $("#suit-name").html(data.name);
+          $("#suit-img").attr("src", data.photo);
 
-          $("#results-modal").modal("toggle");
+          $("#suit-modal").modal("toggle");
 
         });
       } else {
