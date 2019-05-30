@@ -39,7 +39,8 @@
 
     body {
       max-width: 100%;
-      background-color: darkslategrey;
+      background: 100%;
+    
     
     }
 
@@ -49,9 +50,9 @@
 </head>
 
 <body>
-    <div class="container" style="max-width: 100%; ">
-        <h2>Carousel Example</h2>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div class="container">
+ 
+        <div id="myCarousel" class="carousel slide" style= "margin: 0%;" data-ride="carousel">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -60,29 +61,49 @@
           </ol>
       
           <!-- Wrapper for slides -->
-          <div class="carousel-inner" style="max-width: 100% ; ">
+          <div class="carousel-inner" style= "margin: 0%;" >
       
-            <div class="item active">
-              <img src="https://www.columbusnavigator.com/wp-content/uploads/2017/08/date-night-1024x683.jpg" alt="Los Angeles" style="width: 1200px; height: 500px;">
+            <div class="item active"  >
+              <img src="https://images.unsplash.com/photo-1542156946-bb7c945b1785?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60" alt="Los Angeles" style="width: 1200px; height: 500px;">
               <div class="carousel-caption">
-                <h3>Los Angeles</h3>
-                <p>LA is always so much fun!</p>
+                  <div>
+                      <a href="/survey"><button type="button" class="btn btn-lg btn-outline-light">
+                          <h4><span class="glyphicon glyphicon-list-alt"></span>Join Now</h4>
+                        </button></a>
+                    </div>
+            
               </div>
             </div>
       
             <div class="item">
               <img src="https://theeagleharborinn.com/wp-content/uploads/2018/01/bigstock-156640223-900x400.jpg" alt="Chicago" style="width:100%;">
               <div class="carousel-caption">
-                <h3>Chicago</h3>
-                <p>Thank you, Chicago!</p>
+                  <h2>Meet more suitable singles</h2>
+                  <h4>Join now to create your profile!</h4>
+                  <br>
+                  <div>
+                      <a href="/survey"><button type="button" class="btn btn-sm btn-primary">
+                          <h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4>
+                        </button></a>
+                    </div>
+                    <br>
               </div>
+            
+             
+
             </div>
           
             <div class="item">
-              <img src="ny.jpg" alt="New York" style="width:100%;">
+              <img src="images/home.jpg" alt="New York" style="width:100%;">
               <div class="carousel-caption">
-                <h3>New York</h3>
-                <p>We love the Big Apple!</p>
+                <h3>Click to get started today!!</h3>
+                <br>
+                  <div>
+                      <a href="/survey"><button type="button" class="btn btn-sm btn-primary">
+                          <h4><span></span> Sign Up</h4>
+                        </button></a>
+                    </div>
+                    <br>
               </div>
             </div>
         
@@ -99,81 +120,9 @@
           </a>
         </div>
       </div>
-      
-
-
-
-
   <div class="container">
 
-<!--     
-    <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="carouselExampleCaptions" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://www.columbusnavigator.com/wp-content/uploads/2017/08/date-night-1024x683.jpg" class="d-block" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Tailored to fit your needs! </h5>
-              <p>Join now and find your match! </p>
-              <div>
-                <a href="/survey"><button type="button" class="btn btn-lg btn-primary">
-                    <h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4>
-                  </button></a>
-              </div>
-
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="https://theeagleharborinn.com/wp-content/uploads/2018/01/bigstock-156640223-900x400.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>lifetime friendship one click away!</h5>
-              <p>Create your profile by joining now! </p>
-              <div>
-                <a href="/survey"><button type="button" class="btn btn-sm btn-primary">
-                    <h4><span class="glyphicon glyphicon-list-alt"></span> Join Now</h4>
-                  </button></a>
-              </div>
-
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="C:\Users\vlaks_mabjlcs\Desktop\bootcamp\Homework\FriendFinder\app\public\images\3.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Match with someone more compatiable with you! </h5>
-              <p>Join now to find your better half.</p>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div> -->
-    <div class="jumbotron">
-      <h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
-      <hr>
-      <h2>The compaitable way to meet new people!! </h2>
-      <h2>Then find the friend with the greatest compatibility!</h2>
-      <br>
-
-      <div>
-          <a href="/survey"><button type="button" class="btn btn-lg btn-primary">
-              <h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4>
-            </button></a>
-        </div>
-
-
-    </div>
+  
 
     <footer class="footer">
       <div class="container">
