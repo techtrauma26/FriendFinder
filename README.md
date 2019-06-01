@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Build Status](https://img.shields.io/badge/npm%20package-4.2.0-brightgreen.svg)
 
-![image](/app/public/images/logo.jpg)
+![image](/app/public/images/logo1.png)
 >Dating app based on compatibility to find each user with their most suitable match.
 
 ## Table of contents
@@ -15,29 +15,13 @@
 
 ## General info
 
-Friendfinder is a dating full-stack site
+Friendfinder is a dating full-stack site that takes in the results of user's questionaire and compares them to other users' answers to find the most suitable match for each user.
 
-
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
-
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
-
-1. Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
-
-
+This application utilizes Express to handle the routing as well as Heroku to deloy the app.
 
 ## Setup
 
-Bamazon requires [Node.js](https://nodejs.org/) v4+ to run.
-
-Install npm package manager and dependencies then input desired commands.
-
-```sh
-$ cd bamazon
-$ npm install
-$ node bamazonCustomer.js
-```
-
+Visit  
 ## Examples
 
 Products avaiable on Bamazon:
@@ -53,18 +37,4 @@ Making a purchase on Bamazon:
 * [Node.js](https://nodejs.org/)- evented I/O for the backend
 * [JavaScript](https://www.javascript.com/)
 * [NPM](https://www.npmjs.com/) - Package manager
-* [MySQL](https://www.mysql.com/)
-
----------------------------------------------------------------------------------------------------------------------------
-
-# Friend Finder - Node and Express Servers
-
-### Overview
-
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
-
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
-
-1. Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
-
-
+* [Express](https://www.mysql.com/) -server
