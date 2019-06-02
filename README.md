@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Build Status](https://img.shields.io/badge/npm%20package-4.2.0-brightgreen.svg)
 
-![image](/app/public/images/logo1.png)
+![image](/app/public\images/LOGO1.png)
 >Dating app based on compatibility to find each user with their most suitable match.
 
 ## Table of contents
@@ -24,11 +24,10 @@ This application utilizes Express to handle the routing as well as Heroku to del
 Visit  
 ## Examples
 
-Products avaiable on Bamazon:
+
 
 ![Example screenshot](Images/products.gif)
 
-Making a purchase on Bamazon:
 
 ![Example screenshot](Images/purchase.gif)
 
