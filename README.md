@@ -3,7 +3,7 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Build Status](https://img.shields.io/badge/npm%20package-4.2.0-brightgreen.svg)
 
-![image](/app/public\images/LOGO1.png)
+![image](app/public/images/LOGO1.png)
 >Dating app based on compatibility to find each user with their most suitable match.
 
 ## Table of contents
@@ -22,14 +22,12 @@ This application utilizes Express to handle the routing as well as Heroku to del
 ## Setup
 
 Visit  https://frfinder.herokuapp.com/ to view Suits.
+
 ## Examples
 
+![Example screenshot](app/public/images/main.PNG)
 
-
-![Example screenshot](Images/products.gif)
-
-
-![Example screenshot](Images/purchase.gif)
+![Example screenshot](app/public/images/modal.PNG)
 
 ## Technologies
 
