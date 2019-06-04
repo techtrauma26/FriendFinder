@@ -21,7 +21,7 @@ This application utilizes Express to handle the routing as well as Heroku to del
 
 ## Setup
 
-Visit  
+Visit  https://frfinder.herokuapp.com/ to view Suits. 
 ## Examples
 
 
